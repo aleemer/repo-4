@@ -18,15 +18,15 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 2)}>
+          The count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          I updated this to double the count on each click
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        I like the designs on this!
       </p>
     </>
   )
