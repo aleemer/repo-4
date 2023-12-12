@@ -18,11 +18,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 3)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 2)}>
+          The count is {count}
         </button>
         <p>
-          I'm tripling the count on each click!
+          I updated this to double the count on each click
         </p>
       </div>
       <p className="read-the-docs">
