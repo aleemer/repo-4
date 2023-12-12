@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        I like the designs on this!
+        I like the designs on this! They are nice!
       </p>
     </>
   )
